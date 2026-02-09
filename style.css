@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #f3f4f6;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  /* CARDS */
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+  }
+  
+  /* DASHBOARD */
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .resumo {
+    text-align: center;
+  }
+  
+  .resumo span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2563eb;
+  }
+  
+  /* INPUTS */
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    resize: none;
+    height: 70px;
+  }
+  
+  /* BOTÕES */
+  
+  button {
+    background: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .excluir {
+    background: #dc2626;
+  }
+  
+  /* FILTROS */
+  
+  .filtros {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* TABELA */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background: #2563eb;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .status-aberto {
+    color: #dc2626;
+    font-weight: bold;
+  }
+  
+  .status-resolvido {
+    color: #16a34a;
+    font-weight: bold;
+  }
+  
+  
